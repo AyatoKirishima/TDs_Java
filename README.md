@@ -1,6 +1,6 @@
 # TP_Java
 
-# Conventions d'écriture
+# /!\ Conventions d'écriture /!\
 
 1) Packages
   Le nom d'un package doit respecter les conventions suivantes :
