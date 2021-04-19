@@ -1,4 +1,4 @@
-# TP_Java
+# TPs de Java
 
 # /!\ Conventions d'écriture /!\
 
