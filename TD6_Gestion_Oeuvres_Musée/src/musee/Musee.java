@@ -13,7 +13,7 @@ public class Musee {
 //	Methods
 //////////////////////////////////////////////////////////////////////
 		
-	// Méthode d'ajout d'un document // oeuvre
+	// MÃ©thode d'ajout d'un document // oeuvre
 	public void addDocument(Oeuvre file) {
 			list.add(file);
 		}
@@ -44,17 +44,17 @@ public class Musee {
 	}
 
 //////////////////////////////////////////////////////////////////////
-//Constructor
+//	Constructor
 //////////////////////////////////////////////////////////////////////
 	
-	//Demandé pour créer une liste vide
+	//DemandÃ© pour crÃ©er une liste vide
 	public Musee()
 	{
 		list = new ArrayList<>();
 	}
 	
 	/*
-	// Création d'une liste vide de documents // autre tp
+	// CrÃ©ation d'une liste vide de documents // autre tp
 		
 		public StockDocument(){
 	        list = new ArrayList<>();
