@@ -1,5 +1,0 @@
-les_cannotiers,mathis,135,true
-la_pieta,michelange,34,false
-Les_raboteurs_de_parquet,Caillebotte,12,true
-Vue_de_ma_fenetre,Pissarro,10,false
-Le_pont_de_Moret,Sisley,14,true
