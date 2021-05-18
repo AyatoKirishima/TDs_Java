@@ -12,3 +12,6 @@ Héritage :
 
 Couleurs :
 - https://www.htmlcsscolor.com/hex/3F3F3F
+
+Rendre un JPanel cliquable : 
+- https://www.developpez.net/forums/d147080/java/interfaces-graphiques-java/awt-swing/rendre-jpanel-cliquable/
