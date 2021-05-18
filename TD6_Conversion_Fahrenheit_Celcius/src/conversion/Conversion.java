@@ -14,47 +14,47 @@ public class Conversion extends JFrame implements ActionListener {
 	private JLabel lbl1, lbl2;
 	
 	public Conversion() {
-		// On nomme la fenêtre
+		// On nomme la fenÃªtre
 		setTitle("Fahrenheit");
 		
-		// On donne accès au contenu du cadre : getContentPane()
+		// On donne accÃ¨s au contenu du cadre : getContentPane() ici nous utilisons BorderLayout()
 		
 		this.setSize(800,800);
 		this.setLayout(new BorderLayout());
 		
-		//On crée un nouveau panel
+		//On crÃ©e un nouveau panel
 		JPanel p1 = new JPanel();
 		//Variables
-		tempF = new JTextField(6); //On peut entrer jusqu'à 6 nombres
-		lbl1 = new JLabel("Entrer la température en Fahrenheit : ");
+		tempF = new JTextField(6); //On peut entrer jusqu'Ã  6 nombres
+		lbl1 = new JLabel("Entrer la tempÃ©rature en Fahrenheit : ");
 
-		//On ajoute les éléments au panel
+		//On ajoute les Ã©lÃ©ments au panel
 		p1.add(lbl1);
 		p1.add(tempF);
 		this.add(p1,"North");
 		
-		//On définit la couleur d'arrière plan
+		//On dÃ©finit la couleur d'arriÃ¨re plan
 		p1.setBackground(Color.cyan);
 		
-		//On crée un nouveau panel
+		//On crÃ©e un nouveau panel
 		JPanel p2 = new JPanel();
 		
 		//Variables
 		tempC = new JTextField(6);
 		tempC.setEditable(false);
-		lbl2 = new JLabel("Température en Celcius : ");
+		lbl2 = new JLabel("TempÃ©rature en Celcius : ");
 		button = new JButton("OK");
 		
-		//On ajoute les éléments au panel
+		//On ajoute les Ã©lÃ©ments au panel
 		p2.add(lbl2);
 		p2.add(tempC);
 		p2.add(button);
 		this.add("Center",p2);
 		
-		//Associer au bouton tirage un écouteur : ActionListener
+		//Associer au bouton tirage un Ã©couteur : ActionListener
 		button.addActionListener(this);
 		
-		//On définit la couleur d'arrière plan
+		//On dÃ©finit la couleur d'arriÃ¨re plan
 		p2.setBackground(Color.cyan);
 		pack();
 	}
